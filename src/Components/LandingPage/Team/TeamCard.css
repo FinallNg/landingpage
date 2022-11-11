@@ -1,0 +1,51 @@
+    .Teamcard-container {
+        width: 302px;
+        height: 405px;
+        border-radius: 20px;
+        border: 0.5px solid #373737;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Teamcard-details {
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Teamcard-details h3 {
+        font-size: 24px;
+        font-weight: 400px;
+    }
+
+    .Teamcard-details span {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    @media(max-width: 500px){
+        .Teamcard-container{
+            max-width: 302px;
+            max-height: 331px;
+            margin-left: 17px;
+}
+}
+    
+    .Teamcard-details {
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .Teamcard-img-wrapper {
+        height: 70%;
+    }
+       .Teamcard-img-wrapper img {
+            border-radius: 50%;
+            border:2px solid grey;
+            height:84%;
+            width:54%;
+            margin-top:20px;  
+        }
