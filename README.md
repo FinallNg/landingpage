@@ -13,19 +13,19 @@
 
 ### Run the following
 - to switch to dev branch
-- `git checkout dev`
+#### $`git checkout dev`
 - to install the necessary dependencies 
-- `npm install`
+#### $`npm install`
 - to install dependancies exactly like those in the repo 
-- `npm install --legacy-peers-deps`
+#### $`npm install --legacy-peers-deps`
 ### Ensure you work in your designated folder (don't mess up the code base🙂) 
 - to add and commit your changes 
-- `git add .`
-- `git commit -m "your commit message"`
+#### $`git add .`
+#### $`git commit -m "your commit message"`
 ### to push you must pull first (you should be ready to resolve conflicts 🙂)
-- `git pull origin dev`
+##### $`git pull origin dev`
 - once all conflicts are resolved, push to dev branch
-- `git push origin dev`
+ ##### $`git push origin dev`
 
 ## Thank you
 
